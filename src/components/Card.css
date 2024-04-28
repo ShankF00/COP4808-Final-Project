@@ -6,23 +6,23 @@
     padding-bottom: 20px;
     padding-right: 10px;
     margin-bottom: 25px;
-    width: 400px;
-    text-align: center;
+    width: 1000px;
+    text-align: left;
 }
 
-.name {
+.title {
     color:white;
     padding-left:30px;
     font-size: 24px;
 }
 
-.speed {
+.upvotes {
     color:white;
     margin-bottom: 20px;
     font-size: 20px;
 }
 
-.color {
+.content {
     color:white;  
     text-align: justify;
     text-justify: inter-word;

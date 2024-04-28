@@ -1,27 +1,37 @@
-# Web Development Project 7 - *Crewmates*
+# Web Development Final Project - *Posts*
 
 Submitted by: **Liam Swank**
 
-This web app: **Allows users to create, read, update, and delete crewmates from the view page and have the option to open up a unique page containing information about a specific crewmate.**
+This web app: **A crappy Reddit Lite, users can create, read, update, and delete posts of the page. The posts can be search by title and sorted by newest or alphabetically. You can upvote a post. Clicking on a post provides more info like the contents of the post and a comment section.**
 
-Time spent: **1** hours spent in total
+Time spent: **3** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [x] **A create form allows users to add new cremates**
-- [x] **Users can name the crewmate and set the crewmate's attributes by clicking on one of several values**
-- [x] **The site displays a summary page of all the user's added crewmates**
-- [x] **A previously created crewmate can be updated from the crewmate list**
-- [x] **A previously created crewmate can be deleted from the crewmate list**
-- [x] **Each crewmate has a direct, unique link to an info page about them**
+- [x] **A create form that allows the user to create posts**
+- [x] **Posts have a title and optionally additional textual content and/or an image added as an external image URL**
+- [x] **A home feed displaying previously created posts**
+- [x] **By default, the time created, title, and number of upvotes for each post is shown on the feed**
+- [x] **Clicking on a post shall direct the user to a new page for the selected post**
+- [x] **Users can sort posts by either their created time or upvotes count**
+- [x] **Users can search for posts by title**
+- [x] **A separate post page for each created post, where any additional information is shown is linked whenever a user clicks a post**
+- [x] **Users can leave comments underneath a post on the post's separate page**
+- [x] **Each post should have an upvote button on the post's page. Each click increases its upvotes count by one and users can upvote any number of times**
+- [x] **A previously created post can be edited or deleted from its post page**
 
 The following **optional** features are implemented:
 
-- [ ] A crewmate can be given a category upon creation which restricts their attributes
-- [ ] The site displays summary statistics about a user's crew on their crew page 
-- [ ] The site displays a custom "success" metric about a user's crew which changes the look of the crewmate list
+- [ ] Users can only edit and deleted posts or delete comments by entering the secret key, which is set by the user during post creation
+- [ ] Upon launching the web app, the user is assigned a random user ID. It will be associated with all posts and comments that they make and displayed on them.
+- [ ] Users can repost a previous post by referencing its post ID. On the post page of the new post, the referenced post is displayed and linked, creating a thread
+- [ ] Users can customize the interface of the web app
+- [ ] Users can share and view web videos
+- [ ] Users can set flags while creating a post. Then users can filter posts by flags on the home feed.
+- [ ] Users can upload images directly from their local machine as an image file
+- [ ] Display a loading animation whenever data is being fetched
 
 The following **additional** features are implemented:
 
@@ -31,10 +41,10 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='src\components\lab7.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='src/assets/final.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  [ScreenToGif](https://www.screentogif.com/) for Windows
+GIF created with [ScreenToGif](https://www.screentogif.com/) for Windows
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
